@@ -1,3 +1,12 @@
+h1{
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  }
+
 .popup {
     position: absolute;
     background-color: #f1f1f1;
@@ -7,15 +16,7 @@
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     font-size: 24px;
   }
-  header h1{
-  font-size: 70px;
-  font-weight: 600;
-  background-image: linear-gradient(to left, #553c9a, #b393d3);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  }
-
+  
   #bonus{
     visibility: hidden;
   }
